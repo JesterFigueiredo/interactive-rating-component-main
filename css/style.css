@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    color: white;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #212832;
+}
+
+.container{
+    min-height: 90vh;
+    min-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212832;
+}
+
+#rating_form{
+    border-radius:20px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 2%;
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    font-weight:700;
+    width: 300px;
+    height: auto;
+}
+
+#rating_form > *{
+    padding:5% 0px 5% 0;
+}
+
+#rating_form > p{
+    font-weight:400 !important;
+    color: hsl(217, 12%, 63%) !important;
+}
+
+#nums{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 6%;
+}
+
+
+#nums>div{
+    background-color: #29313b;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+#nums>div:hover{
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+
+}
+#nums>div:focus{
+    background-color: grey;
+}
+
+#btn{
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    padding:10px;
+    border: none;
+    border-radius: 20px;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color:hsl(25, 94%, 62%) ;
+}
+
+#star{
+    
+    background-color: #29313b;
+    padding: 10px !important;
+    border-radius: 50%;
+    display: block;
+}
+
+.attribution{
+    font:Roboto, sans-serif;
+}
+
+.end{
+    display:flex ;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+}
+
+#end_img{
+    width: 162px;
+    height:108px;
+}
+
+.end>#firstp{
+    padding: 4.5px 15px 4.5px 15px;
+    border-radius: 40px;
+    font-weight:400;
+    background-color:#29313b;
+    color:hsl(25, 97%, 53%) !important ;
+}
+
+.end>h1{
+    padding:20px 0px 15px 0px;
+}
+
+.end>#secondp{
+    padding: 0px !important;
+}
